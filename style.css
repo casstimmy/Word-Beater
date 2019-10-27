@@ -1,0 +1,109 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    position: absolute;
+    height: 100vh;
+    width: 100%;
+    background: #304142;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.8em;
+    display: flex;
+    flex-direction: column;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+nav{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    background: #405658;
+    justify-content: center;
+    align-items: center;
+}
+nav p{
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 15px;
+    text-transform: capitalize;
+}
+.container{
+    height: 70vh;
+    width: 60%;
+    /* make the width 40px and work in the reponsivness for */
+    margin: 0% auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    text-align: center;
+}
+.game-input .game-input-title #timer{
+    color: chartreuse
+}
+
+.game-input .game-input-title{
+    margin: 30px 0px ;
+    font-size: 0.9em
+}
+.game-input .game-input-word{
+    margin-bottom: 45px;
+    font-size: 2.5em;
+    font-weight: 100;
+    letter-spacing: 1px;
+}
+#game-input-main{
+    border-color: none;
+    border-radius: 3px;
+    border-style: none;
+    font-size: 20px;
+    text-align: center;
+    width: 15em;
+    height: 40px;
+    padding: 5px;
+    margin-bottom: 25px;
+    overflow: hidden;
+    /* for phone view = margin:0px 30% 25px 0%; */
+}
+.game-input h3{
+    font-size: 15px;
+    margin-bottom: 20px;
+}
+.game-info{
+
+    display: flex;
+    justify-content: space-around;
+    padding: 5px;
+    margin-bottom: 20px;
+    font-size: 1.5em;
+    flex-wrap: wrap;
+}
+.game-info p{
+    margin: 3px;
+}
+.Assist{
+    margin: 0 40px;
+    padding: 10px 20px;
+    background: rgba(128, 128, 128, 0.5);
+    border-radius: 5px;
+    font-size: 0.70em;
+    text-overflow: clip;
+    line-height: 2em;
+    position: relative;
+    
+}
+
+.Assist-title{
+    margin-bottom: 7px;
+    letter-spacing: 1px;
+    font-size: 1.2em;
+    text-transform: capitalize;
+   
+}
+.Assist-text{
+    position: absolute;
+
+}
